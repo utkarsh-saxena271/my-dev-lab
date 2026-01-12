@@ -1,0 +1,12 @@
+HTML Tags
+h1,h2,h3,h4,h5
+p
+<img src = "">
+<button>buttonText<button/>
+<input type="" placeholder=""   >
+<a href = "" target = "_blank"></a>;target = "_blank"---->  to open link in new tab.
+
+
+
+//markup vs scripting vs programming
+//client side vs server side

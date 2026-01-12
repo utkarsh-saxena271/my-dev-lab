@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.lings{
+    height: 100%;
+    align-content: center;
+}
+.left-part{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

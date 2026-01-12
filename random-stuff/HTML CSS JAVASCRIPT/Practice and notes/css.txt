@@ -1,0 +1,95 @@
+Level 1:
+selector{
+    property: value;
+}
+TO link css file with html file write the statement given below inside the head tag:
+<link rel = "stylesheet" href = "style.css">
+
+
+Priority: 
+inline>style tag> style sheet
+Color System:
+    RGBA(A-alpha(opacity(0 to 1)))
+        red: rgb(255,0,0,1);
+        green: rgb(0,255,0,1);
+        blue: rgb(0,0,255,1);
+        white: rgb(255,255,255,1);
+        black: rgb(0,0,0,1);
+    HEX 
+        white: #ffffff;
+        black: #000000;
+        red: #ff0000;
+        green: #00ff00;
+        blue: #0000ff;
+SELECTORS:
+    universal:
+    *{
+
+    }
+
+    element:
+    h1{
+
+    }
+
+    id:
+    #myID{
+
+    }
+
+    class:
+    .myClass{
+
+    }
+
+Units in Css:
+    pixels(px)
+    1 inch = 96px
+    
+
+
+
+    LEVEL 2
+Box model:
+height,width,border,padding,margin;
+border:
+border-width:
+border-style:
+border-color:
+border: width style color;
+border-radius: 50px;(circle krdeta hai(if height = width))
+
+Padding:
+padding-left;
+padding-right;
+padding-top;
+padding-bottom;
+padding: top right bottom left;
+
+Margin:
+margin-right:
+marging-left:
+margin-top:
+margin-bottom:
+margin: top right bottom left;
+
+
+
+
+LEVEL 3
+position:static/relative/absolute/fixed
+    properties: top, right,bottom,left
+
+
+
+
+LEVEL 4
+Flexbox:
+Flexible box layout
+display : flex
+
+
+Media Queries
+
+transition short hand
+transition: property name | duration | timing-function | delay

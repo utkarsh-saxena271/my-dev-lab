@@ -1,0 +1,17 @@
+Frontend Development : Learning with industrial way.
+Navigation Bar
+Heading tag(h1 to h6)
+paragraph tag
+anchor tag
+div tag
+inline and block elements
+css
+bootstrap
+cdn link and starter template.
+grid System(row and column)
+padding margin,
+bg color
+text color
+svg images 
+we did inspect and got the logo of the website in the svg tags.
+inline, internal and external css.

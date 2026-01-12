@@ -1,0 +1,36 @@
+body{
+    height: 800px;
+    background-color: green;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    position:relative;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+
+div:hover{
+    border-radius: 50%;
+    background-color: rgb(155, 225, 100);
+    color: rgb(255, 81, 0);
+    border: 1px dashed pink;
+    text-align: center;
+}
+
+div:active{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(87deg);
+    transform-origin: 100% 100%;
+    transform: scale(2);
+}

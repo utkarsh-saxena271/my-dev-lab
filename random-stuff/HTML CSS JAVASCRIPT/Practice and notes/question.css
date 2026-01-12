@@ -1,0 +1,28 @@
+html{
+  height: 100%;
+  width: 100%;
+
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(226, 226, 226);
+  border-left: 2px solid black;
+  animation-name: loader ;
+  animation-duration: 1s ;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes loader{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}

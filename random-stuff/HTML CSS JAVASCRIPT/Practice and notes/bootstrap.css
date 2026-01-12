@@ -1,0 +1,28 @@
+*{
+    color: white;
+    font-size: 2vh;
+}
+.row{
+    background-color: #7952b3;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex span{
+    margin-top: 5px;
+}
+.col-2{
+    display: flex;
+    justify-content: space-between;
+}
+.col-2 svg{
+    height: 20px;
+    margin-top: 10px;
+}
+.col-2 button{
+    color: #ffe484;
+    border: 1px solid #ffe484;
+    border-radius: 5px;
+    background-color: transparent;
+}
