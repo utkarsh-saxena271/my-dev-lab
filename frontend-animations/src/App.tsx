@@ -1,8 +1,9 @@
+import Buttton from "./components/Buttton"
 
 
 const App = () => {
   return (
-    <div>app</div>
+    <Buttton/>
   )
 }
 
