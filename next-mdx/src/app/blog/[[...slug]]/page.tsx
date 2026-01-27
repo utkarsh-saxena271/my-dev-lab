@@ -1,20 +1,29 @@
 import fs from "fs"
+import { notFound } from "next/navigation"
 import path from "path"
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ slug?: string[] }>
 }) {
-  const { slug } = await params
-  const { default: Post } = await import(`@/content/${slug}.mdx`)
- 
-  return <Post />
+  const { slug = [] } = await params
+
+  // turn ['uk', 'each', 'element'] → 'uk/each/element'
+  const path = slug.join('/')
+
+  try {
+    const { default: Post } = await import(`@/content/${path}.mdx`)
+
+  return (
+     <Post/>
+  )
+  } catch {
+    notFound()
+  }
 }
+
  
-// export function generateStaticParams() {
-//   return [{ slug: 'welcome' }, { slug: 'about' }]
-// }
  
 export const dynamicParams = false
 
