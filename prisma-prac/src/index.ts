@@ -12,8 +12,8 @@ async function createUser() {
         await client.users.create({
         data:{
             username: "ajhshdjajhkd",
-            email:"utkaskjdhakdhjadarsh@utkarsh.com",
-            password:"ajsdkjajhdhas"
+            email:"",
+            password:""
         }
      })
      } catch (error) {
