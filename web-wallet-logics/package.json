@@ -1,0 +1,20 @@
+{
+  "name": "web-wallet-logics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "bip39": "^3.1.0",
+    "ed25519-hd-key": "^1.3.0",
+    "tweetnacl": "^1.0.3",
+    "typescript": "^5.9.3"
+  }
+}
