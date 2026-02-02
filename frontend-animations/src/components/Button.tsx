@@ -1,5 +1,5 @@
 import {motion} from 'motion/react'
-const Buttton = () => {
+const Button = () => {
   return (
     <div className="bg-neutral-950 h-screen w-screen flex justify-center items-center [perspective::1000px] transform-3d"
     style={{
@@ -30,4 +30,4 @@ const Buttton = () => {
   )
 }
 
-export default Buttton
+export default Button

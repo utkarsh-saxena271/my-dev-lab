@@ -1,9 +1,9 @@
-import Buttton from "./components/Buttton"
+import Button from "./components/Button"
 
 
 const App = () => {
   return (
-    <Buttton/>
+    <Button/>
   )
 }
 
