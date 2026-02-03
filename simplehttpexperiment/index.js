@@ -1,12 +1,16 @@
 import express from 'express'
+import {createServer} from 'http'
 
-const app = express();
+import { initws } from './src/ws.js'
+
+const app = express()
+const httpServer = createServer(app)
 
 app.get('/',(req,res)=>{
-    res.send("Hello World")
+    res.json("getting response")
 })
 
 
-app.listen(3000,()=>{
-    console.log("server is running on port 3000")
-})
+
+initws(httpServer)
+httpServer.listen(3000)
